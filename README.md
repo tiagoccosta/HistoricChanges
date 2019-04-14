@@ -10,7 +10,7 @@ Just copy the class file HistoricChanges.java in your java project scripts folde
 ---------------
 ## How To Use
 
-Create an instance of a HistoricChanges, set the desired events, and you are ready to call functions to start a server or client.
+Create an instance of a HistoricChanges, add runnable changes and call undo() or redo() when you whant.
 
 * __Functions__
 ```java
