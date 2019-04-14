@@ -16,7 +16,7 @@ Create an instance of a HistoricChanges, add runnable changes and call undo() or
 ```java
 HistoricChanges hc = new HistoricChanges(maxChange);
 
-//Add new change withi name, undo Runnable and redo Runnable
+//Add new change with name, undo Runnable and redo Runnable
 hc.addChange(name,undoRunnable,redoRunnable);
 
 //Execute next undo Runnable action
