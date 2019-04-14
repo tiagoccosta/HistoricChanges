@@ -19,11 +19,11 @@ HistoricChanges hc = new HistoricChanges(maxChange);
 //Add new change withi name, undo Runnable and redo Runnable
 hc.addChange(name,undoRunnable,redoRunnable);
 
+//Execute next undo Runnable action
 hc.undo();
 
-hc.undo();
-
-hc.undo();
+//Execute next redo Runnable action
+hc.redo();
 
 String lastChangeName = hc.getLastChangeName();
 
