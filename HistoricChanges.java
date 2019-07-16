@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class HistoricChanges{
 	private List<AbstractMap.SimpleEntry<String, Runnable[]>> changes = new ArrayList<AbstractMap.SimpleEntry<String,Runnable[]>>();
 	private int index = 0;
