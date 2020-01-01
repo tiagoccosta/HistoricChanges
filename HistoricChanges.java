@@ -48,10 +48,10 @@ public class HistoricChanges{
 			index = changes.size();
 		}
 	}
-	public boolean isUndable(){
+	public boolean isUndoable(){
 		return index > 0;
 	}
-	public boolean isRedable(){
+	public boolean isRedoable(){
 		int size = 0;
 		synchronized(changes){size = changes.size();}
 		return index < size;
